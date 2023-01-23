@@ -1,0 +1,86 @@
+*{
+    color: #fff;
+}
+
+body{
+    height: 50rem ;
+    background-color: #cccccc;
+    background-image: linear-gradient(rgb(0, 220, 220), rgb(0, 136, 255));
+}
+
+.welcomeScreen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg,rgb(67,131,195) 20%,rgba(48,180,203,.95) 90%);
+}
+
+.welcomeScreen form {
+    margin: 20%;
+}
+
+.welcomeScreen input{
+    color: black;
+}
+
+.flexContainer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.flexContainer div {
+    background-color: #f1f1f1;
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+}
+
+div img {
+    width: 80%;
+    cursor: pointer;
+}
+
+main .text{
+    display: flex;
+    justify-content: center;
+}
+
+.gameover {
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+.gameover button {
+    padding: 20pxpx 20px;
+    background: rgba(255,255,255,.15);
+    border: 2px solid #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+footer p{
+    margin: 10%;
+    text-align: center;
+    color:rgba(0, 77, 154, 0.782);
+}
+
+.askIfRestart {
+    position: absolute;
+    text-align: center;
+    background: linear-gradient(0deg,rgba(67,131,195,.95) 20%,rgba(48,180,203,.95) 90%); 
+}
+
+.askIfRestart button{
+    margin-top: 5rem;
+    padding: 20px 5px;
+}
+
+
+

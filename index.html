@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>JavaScript</title>
+</head>
+<body>
+  <header>
+    <div class="welcomeScreen" id="startGameScreen">
+      <form id="setPlayerForm">
+        <h1>Rock Paper Scissors </h1>
+        <label>Enter your name here:</label><br>
+        <input type="text" id="playerName" value="Clara"/>
+        <input type="submit" id="createPlayerBtn" value="Go!"/>
+      </form>
+    </div>
+    
+    <div class="gameover" id="resetGameScreen">
+      <h1 id="showWinnerH1"></h1>
+      <h2 id="showScoreH2"></h2>
+      <button id="resetBtn">RESET GAME</button>
+    </div>
+  </header>
+
+  <main>
+    <h1 class="text" id="roundH1">Round 1</h1>
+    <h3 class="text" id="playerTitle">YOUR SCORE</h3>
+    <p class="text" id="playerScoreboard">&star; &star; &star;</p>
+    <section class="flexContainer">
+      <div id="stoneBox">
+        <img src="images/stone.png">
+      </div>
+      <div id="paperBox">
+        <img src="images/paper-bag.png">
+      </div>
+      <div id="scissorsBox">
+        <img src="images/scissors.png">
+      </div>
+    </section>
+    <h3 class="text">BOT'S SCORE</h3>
+    <p class="text" id="botScoreboard">&star; &star; &star;</p>
+    <h2 class="text" id="gameResult"></h2>
+  </main>
+
+  <footer>
+    <p>Purpledusty | 2023</p>
+  </footer>
+</html>
